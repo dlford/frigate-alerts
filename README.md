@@ -1,10 +1,12 @@
-# Frigate Slack Alerts
+# Frigate Alerts
 
-Get Slack alerts for Frigate events with snapshots and filters.
+Get alerts for Frigate events with snapshots and filters.
 
-Not assosiated with Frigate or Slack.
+This project has been split off from the now deprecated `dlford/frigate-slack-alerts`,
+in the future I will be adding support for [Gotify](https://gotify.net/), and
+potentially other platforms down the road for push notifications.
 
-## Quick Start
+## Quick Start (for Slack)
 
 1.  Create a slack channel for alerts (the default channel name is `frigate`)
 2.  Go to the [Slack API page](https://api.slack.com/apps) and create a new app
