@@ -110,7 +110,7 @@ potentially other platforms down the road for push notifications.
       alerts:
         container_name: alerts
         restart: unless-stopped
-        image: ghcr.io/dlford/frigate-slack-alerts:latest
+        image: ghcr.io/dlford/frigate-alerts:latest
         environment:
           FSA_MQTT_BROKER: mqtt
           FSA_MQTT_USER: alerts
